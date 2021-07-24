@@ -9,14 +9,17 @@
 </head>
 <body>
     <main class="main">
-        <p>Send E-Mail</p>
-        <form action="contactform.php" method="post" class="contact-form">
-            <input type="text" name="name" placeholder="Full name">
-            <input type="text" name="mail" placeholder="Your Email">
-            <input type="text" name="subject" placeholder="Subject">
-            <textarea name="message" placeholder="Message"></textarea>
-            <button type="submit" name="submit">Send Mail</button>
-        </form>
+        <img src="img/beach.jpg" alt="" class="bg-fit">
+        <div class="container">
+            <p>Send E-Mail</p>
+            <form action="contactform.php" method="post" class="contact-form">
+                <input type="text" name="name" placeholder="Full name">
+                <input type="text" name="mail" placeholder="Your Email">
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea name="message" placeholder="Message"></textarea>
+                <button type="submit" name="submit">Send Mail</button>
+            </form>
+        </div>
     </main>
 </body>
 </html>
